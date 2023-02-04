@@ -9,7 +9,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://marwan-unity.github.io/Stats-preview-card-component/)
 
 ## My process
 
