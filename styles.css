@@ -17,11 +17,16 @@ span{
   min-height: 28em;
 }
 
-img{
+.img-container{
+  background-color: hsl(277, 64%, 61%);
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
+}
+img{
+  height: 100%;
+  opacity: 0.8;
+  mix-blend-mode: multiply; 
   object-fit: contain;
-  position: relative;
 }
 
 .main-container{
@@ -88,10 +93,14 @@ img{
     display: flex;
     flex-direction: column-reverse;
   }
-  img{
+  .img-container{
     border-radius: 0;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
+  }
+  img{
+    width: 100%;
+    
   }
   .main-container{
     border-radius: 0;
